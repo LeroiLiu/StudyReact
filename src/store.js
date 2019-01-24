@@ -6,7 +6,7 @@
 * @csdn:   https://blog.csdn.net/leroi_liu
 * @Date:   2019-01-24 11:54:46
 * @Last Modified by:   leroi
-* @Last Modified time: 2019-01-24 12:01:37
+* @Last Modified time: 2019-01-24 14:09:48
 * @Last Modified time: 2019-01-24 11:54:46
 */
 import { createStore,compose,applyMiddleware } from 'redux';
@@ -19,7 +19,5 @@ const store = createStore(
     applyMiddleware(...[thunk])//需要使用的中间件数组
   )
 )//创建一个storage
-
-compose(store.getState())
 
 export default store

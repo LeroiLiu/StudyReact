@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import store from './store'
-import {loadPostsAction} from './actions/post_action';
-
-store.dispatch(loadPostsAction)
-console.log(store.getState())
+import PostList from './components/post_list'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      dhfgj
+     	<PostList />
       </div>
     );
   }
