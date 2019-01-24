@@ -82,4 +82,11 @@ class CommentBox extends React.Component{
 				</div>
 				<button type="submit" className="btn btn-priary">留言</button>
 			</form>
-
+
+		)
+	}
+
+
+}
+
+export default CommentBox
